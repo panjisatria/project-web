@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panji Satria</title>
+    <!-- style css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!-- bundles -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <!-- fonts -->
+    <link href="//fonts.google.com/share?selection.family=Luckiest%20Guy" rel="stylesheet">
+
+</head>
+<body>
+    
+<body>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <div class="container-fluid banner">
+        <div class="container text-center">
+          <h4 class="display-6">SELAMAT DATANG DI WEBSITE KAMI</h4>
+        </div>
+      </div>
+      <!-- isi -->
+      <style>
+        body {
+          margin: 0;
+          font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        .top-container {
+          background-color: #f1f1f1;
+          padding: 30px;
+          text-align: center;
+        }
+        
+        .header {
+          padding: 10px 16px;
+          background: #555;
+          color: #f1f1f1;
+        }
+        
+        .content {
+          padding: 16px;
+        }
+        
+        .sticky {
+          position: fixed;
+          top: 0;
+          width: 100%;
+        }
+        
+        .sticky + .content {
+          padding-top: 102px;
+        }
+        </style>
+        </head>
+        <body>   
+            <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#">PanjiSatria</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Features</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Pricing</a>
+                      </li>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+        </div> 
+        <div class="content">
+          <h4>MULTIMEDIA</h4>
+          <p>Multimedia adalah komputer untuk menyajikan dan menggabungkan teks, suara, gambar, animasi, audio,<br>dan video dengan alat bantu dan tautan sehingga pengguna dapat melakukan navigasi, berinteraksi, berkarya, 
+              dan berkomunikasi.<br> Multimedia sering digunakan dalam dunia informatika,Selain dari dunia informatika, multimedia juga diadopsi oleh dunia gim,<br> dan juga pembuatan situs web.
+              Pemanfaatan multimedia termasuk juga dalam bidang pendidikan dan bisnis.<br> Di bidang pendidikan, multimedia dimanfaatkan sebagai media pengajaran, baik dalam kelas maupun secara mandiri atau otodidak.<br> Di bidang bisnis, multimedia dimanfaatkan dalam media profil perusahaan, profil produk,<br>bahkan sebagai media kios informasi dan pelatihan dalam sistem pembelajaran daring.<br></p>
+        </div>
+
+        <script>
+        window.onscroll = function() {myFunction()};
+        
+        var header = document.getElementById("myHeader");
+        var sticky = header.offsetTop;
+        
+        function myFunction() {
+          if (window.pageYOffset > sticky) {
+            header.classList.add("sticky");
+          } else {
+            header.classList.remove("sticky");
+          }
+        }
+        </script>
+        <body>
+            <div class="video">
+            <p>Berikut ini Adalah manfaat Multimedia</p>
+            <button onclick="openFullscreen();"> Fullscreen Mode</button>
+            <p><strong>Tips:</strong> Klik Untuk Fullscreen</p>
+            
+            <video width="60%" class="center" controls id="myvideo">
+              <source src="img/WhatsApp Video 2021-12-27 at 20.28.52.mp4" type="video/mp4">
+              <source src="img/WhatsApp Video 2021-12-27 at 20.28.52.mp4" type="video/ogg">
+              Your browser does not support the video tag.
+            </video>
+            
+            
+            <script>
+            var elem = document.getElementById("myvideo");
+            function openFullscreen() {
+              if (elem.requestFullscreen) {
+                elem.requestFullscreen();
+              } else if (elem.webkitRequestFullscreen) { /* Safari */
+                elem.webkitRequestFullscreen();
+              } else if (elem.msRequestFullscreen) { /* IE11 */
+                elem.msRequestFullscreen();
+              }
+            }
+            </script>
+            </div>
+
+            </body>
+        </body>
+        </div>
+    </body>
+</body>
+</html>

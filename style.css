@@ -1,0 +1,27 @@
+.banner{
+    background: url("img/1.jpg") no-repeat center;
+    background-size: cover;
+    padding-top: 23%;
+    padding-bottom: 20%;
+    color: rgb(255, 255, 255);
+    font-family: pushster;
+    font-size: 38px;
+    background-color: black;
+}
+.workingspace{
+    margin-top: 90px;
+    padding-bottom: 20%;
+}
+}
+.workingspace{
+    margin-top: 100px;
+}
+.content{
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+}
+.video{
+    position: relative;
+    text-align: center;
+}
